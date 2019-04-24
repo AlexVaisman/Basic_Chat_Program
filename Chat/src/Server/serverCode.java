@@ -23,10 +23,7 @@ public class serverCode implements Runnable {
 	private ArrayList<ServerSideClient> usersList;
 	private server serv;
 
-	/**
-	 * 
-	 * @param port , the port for the server
-	 */
+	
 	public serverCode(int port,server serv) {
 		this.serverPort = port;
 		this.usersList = new ArrayList<ServerSideClient>();
@@ -74,7 +71,7 @@ public class serverCode implements Runnable {
 
 	}
 
-	/** getters/ setters **/
+	/* getters/ setters */
 	public int getServerPort() {
 		return serverPort;
 	}

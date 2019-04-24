@@ -25,12 +25,7 @@ public class clientCode {
 	private BufferedReader in;
 	private Client client;
 
-	/**
-	 * Constructor for clientCode.
-	 * 
-	 * @param name - clients name.
-	 * @param ip   - servers ip.
-	 */
+
 	public clientCode(String name, String ip, Client client) {
 		this.name = name;
 		this.ip = ip;
